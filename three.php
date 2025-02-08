@@ -21,6 +21,8 @@
 
 <?php
 
+//write php program to check entered number is even or odd
+
 if($_SERVER["REQUEST_METHOD"] == "POST")
 {
 	$num = $_POST["num"];
