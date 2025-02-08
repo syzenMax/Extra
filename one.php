@@ -17,6 +17,9 @@
 
 <?php
 
+//Accept a string from the user, 
+//reverse it using PHP, and display the reversed string on the page
+
 if($_SERVER["REQUEST_METHOD"] == "POST")
 {
 	$input = $_POST["data"];
