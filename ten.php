@@ -21,6 +21,8 @@
 
 <?php
 
+//Write a program in php to generate fibonacci series till n number.
+
 if($_SERVER["REQUEST_METHOD"] == "POST")
 {
 	$n = $_POST["num"];
